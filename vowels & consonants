@@ -1,0 +1,7 @@
+ch=input()
+if  not ch.isalpha():
+    print("Not an alphabet")
+elif ch.lower() in "a,e,i,o,u":
+    print("Vowel")
+else:
+    print("Consonant")
