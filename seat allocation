@@ -1,0 +1,9 @@
+L1=input("Enter x\n")
+L2=input("Enter y\n")
+L3=input("Enter z\n")
+if(L1<L2 and L1<L3):
+    print("L1 has the minimal seating capacity")
+elif(L2<L3 and L2<L1):
+    print("L2 has the minimal seating capacity")
+else:
+    print("L3 has the minimal seating capacity")
