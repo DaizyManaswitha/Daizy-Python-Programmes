@@ -1,0 +1,12 @@
+m=int(input())
+r=float(input())
+d=int(input())
+if m in range(1,13):
+    if m in range(11,13):
+        print("Hotel Tariff:Rs.%.2f"%((((20/100)*r)+r)*d))
+    elif m in range(4,7):
+        print("Hotel Tariff:Rs.%.2f"%((((20/100)*r)+r)*d))
+    else:
+        print("Hotel Tariff:Rs.%.2f"%(r*d))
+else:
+    print("Invalid Input")
