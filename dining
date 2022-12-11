@@ -1,0 +1,14 @@
+str=input()
+b=int(input())
+if(str==("front")):
+    if(b==1):
+        print("Left Handed")
+    else:
+        print("Right Handed")
+elif(str==("rear")):
+    if(b==1):
+        print("Right Handed")
+    else:
+        print("Left Handed")
+else:
+    print("Nothing")
