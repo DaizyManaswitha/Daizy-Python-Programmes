@@ -1,0 +1,11 @@
+print("Enter Year of birth")
+bty=int(input(""))
+print("Enter Current year")
+cy=int(input(""))
+if bty<cy:
+    age=cy-bty
+    print("Your age is",age)
+else:
+    bty=100-bty
+    age=bty+cy
+    print("Your age is",age)
