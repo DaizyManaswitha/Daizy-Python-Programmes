@@ -1,0 +1,10 @@
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+t=((int(a)*350.34)+(int(b)*230.90)+(int(c)*190.55)+(int(d)*125.30)+(int(e)*180.90))
+if t<15000:
+    print("yes")
+else:
+    print("no")
