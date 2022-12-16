@@ -1,0 +1,12 @@
+n=int(input())
+x=1
+f=1
+while(f<n):
+    x=x+1
+    f=f*x
+if f==n:
+    print("yes")
+else:
+    print("no")
+
+	
