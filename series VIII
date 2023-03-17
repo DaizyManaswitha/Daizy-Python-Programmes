@@ -1,0 +1,8 @@
+n=int(input())
+a,b=4,5
+sum=0
+print(a,b,end=" ")
+sum=a+b
+for i in range(3,n+1):
+    print(sum,end=" ")
+    sum=sum+pow(i,2)
